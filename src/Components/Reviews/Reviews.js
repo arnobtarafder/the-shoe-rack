@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import useReviews from '../Hooks/useReviews';
-import  { ReviewsDetails } from './ReviewsDetails/ReviewsDetails';
+import ReviewsDetails, { ReviewsCard } from './ReviewsDetails/ReviewsDetails';
 
 const Reviews = () => {
     const [reviews, setReviews] = useReviews();
@@ -15,6 +15,12 @@ const Reviews = () => {
                         reviews = {review}
                     ></ReviewsDetails> )
                 }
+                  {/* {
+                    reviews.slice(0,3).map( (review) => <ReviewsCard
+                        key = {review.id}
+                        reviews = {review}
+                    ></ReviewsCard> )
+                } */}
              </div>
         </section>
     );
