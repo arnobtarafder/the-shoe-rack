@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import useReviews from '../Hooks/useReviews';
-import ReviewsDetails from './ReviewsDetails/ReviewsDetails';
+import  { ReviewsDetails } from './ReviewsDetails/ReviewsDetails';
 
 const Reviews = () => {
     const [reviews, setReviews] = useReviews();
