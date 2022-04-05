@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Link from '../CustomLink/CustomLink';
+import CustomLink from '../CustomLink/CustomLink';
 
 const Navbar = () => {
     return (
@@ -10,11 +10,11 @@ const Navbar = () => {
                 </div>
 
             <div className='flex gap-5 text-xl'>
-                <Link className="hover:text-black text-gray-600" to='/'>Home</Link>
-                <Link className="hover:text-black text-gray-600" to='/dashboard'>Dashboard</Link>
-                <Link className="hover:text-black text-gray-600" to='/blogs'>Blogs</Link>
-                <Link className="hover:text-black text-gray-600" to='/reviews'>Reviews</Link>
-                <Link className="hover:text-black text-gray-600" to='/about'>About</Link>
+                <CustomLink className="hover:text-black text-gray-600" to='/'>Home</CustomLink>
+                <CustomLink className="hover:text-black text-gray-600" to='/dashboard'>Dashboard</CustomLink>
+                <CustomLink className="hover:text-black text-gray-600" to='/blogs'>Blogs</CustomLink>
+                <CustomLink className="hover:text-black text-gray-600" to='/reviews'>Reviews</CustomLink>
+                <CustomLink className="hover:text-black text-gray-600" to='/about'>About</CustomLink>
                 </div>
         </div>
     );

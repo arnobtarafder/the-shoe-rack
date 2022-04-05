@@ -1,20 +1,25 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Reviews from '../Reviews/Reviews';
 // import ReviewsDetails from '../Reviews/ReviewsDetails/ReviewsDetails';
 import './Home.css'
 
 const Home = () => {
     return (
-        <section>
-            <div className='homepage-container justify-end mt-24 md:order-2'>
-            <div className="details-container mx-auto">
-                <h1>Earn Money</h1>
-                <h1>Buy Shoes</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore est ipsa qui ab iure voluptates voluptate, veritatis fugit ratione delectus voluptatibus. Nesciunt, porro! Totam eaque accusamus rem ullam nulla. Nulla fugit adipisci eligendi quas expedita sed ullam quasi eius aperiam molestiae, odio dolorem aspernatur officiis voluptatem necessitatibus. Tempora repellat repellendus ipsa et iste quas esse, quis voluptatem excepturi corrupti, consequatur quibusdam sit facere libero, earum recusandae labore architecto quos exercitationem?</p>
+        <section className='px-4 py-16 mx-auto max-w-7xl'>
+            <div className='grid items-center w-full grid-cols-1 gap-10 mx-auto md:w-4/5 lg:grid-cols-2'>
+            <div className="details-container">
+
+                <h1 className='text-5xl font-thin'><span className='text-teal-600'>Earn</span> Money</h1>
+
+                <h1 className='text-5xl font-thin'><span className='text-orange-900'>Buy</span> Shoes</h1>
+                <p className='font-momo text-medium mt-7'>This shop is the world's largest shop. You can found here any kind of shoes you want. Our service level deserves more than 5 star. just taste us one time. I will make sure that you will never buy shoes from any other shop other than us.</p>
+
+                <Link to='/reviews'>Reviews</Link>
             </div>
 
             <div className="image-container mx-auto md:order-1 mb-56">
-                <img className='' src="https://media.istockphoto.com/photos/object-patternsneakers-picture-id1304862992?b=1&k=20&m=1304862992&s=170667a&w=0&h=Emf1s0oY7xw7HjOCloT7XHLXlkdznJ9Tve-l9FZWBBA=" alt="" />
+                <img className='rounded-lg' src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" alt="" />
             </div>
 
 

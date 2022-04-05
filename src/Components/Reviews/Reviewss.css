@@ -1,0 +1,32 @@
+.review-container h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 490px){
+    .reviews{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 2rem;
+    }    
+}
+@media screen and (min-width: 776px){
+    .reviews{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 2rem;
+    }    
+}
+@media screen and (min-width: 992px){
+    .reviews{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 2rem;
+    }    
+}
