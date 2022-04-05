@@ -12,8 +12,8 @@
 }
 
 .review-details-container img{
-    width: 150px;
-    border-radius: 50%;
+    width: 178px;
+    border-radius: 100%;
 }
 
 .review-details{
@@ -21,9 +21,6 @@
     line-height: 25px;
 }
 
-.message{
-    font-weight: 500;
-}
 
 @media screen and (max-width: 490px){
     .review-details-container{
