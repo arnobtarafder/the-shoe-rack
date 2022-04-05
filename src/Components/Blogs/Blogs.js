@@ -31,7 +31,7 @@ const Blogs = () => {
                 </p>
             </div>
         </div>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
         </>
     );
 };

@@ -22,7 +22,7 @@ const NotFound = () => {
         <div>
           <div className='w-full h-full bg-gray-200 rounded-lg'>
             <img
-              src='https://thumbs.dreamstime.com/b/%C3%B0%C2%BF%C3%B0%C2%B5%C3%B1%E2%80%A1%C3%B0%C2%B0%C3%B1%E2%80%9A%C3%B1%C5%93-134036857.jpg'
+              src='https://wpklik.com/wp-content/uploads/2019/03/How-to-Make-a-Custom-404-Page-in-WordPress.jpg'
               alt=''
             />
           </div>

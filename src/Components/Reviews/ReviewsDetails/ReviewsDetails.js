@@ -34,7 +34,7 @@ const ReviewsDetails = () => {
       style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
     >
       <div style={{ width: "50%", textAlign: "center" }}>
-        <h1 style={{ marginBottom: 20 }}>OUR HONORABLE CUSTOMERS REVIEWS</h1>
+        <h1 className='text-2xl mb-8' style={{ marginBottom: 20 }}>OUR HONORABLE CUSTOMERS REVIEWS</h1>
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
           <ReviewsCard 
           img="https://scontent.fdac5-1.fna.fbcdn.net/v/t31.18172-8/22384087_10154819682976891_5369315647445272063_o.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFt2YOCkujJV8WA3dVAoOy_1njAXCuRU5nWeMBcK5FTmeTkNlpSlIEiH3v8IYUttbGcPakLx81dPxFcMfU4Ct_b&_nc_ohc=I3MZxXXOp14AX-ixhBk&_nc_ht=scontent.fdac5-1.fna&oh=00_AT9DgAmCW45BHlHrzlZYyMAGRY6ylwrf4ij26rR6TXR36w&oe=627068EA" 
