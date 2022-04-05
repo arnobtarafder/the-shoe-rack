@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import useReviews from '../Hooks/useReviews';
 import ReviewsDetails, { ReviewsCard } from './ReviewsDetails/ReviewsDetails';
-import './Reviewss.css'
+import './Reviews.css'
 
 const Reviews = () => {
     const [reviews, setReviews] = useReviews();

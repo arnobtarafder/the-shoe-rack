@@ -1,22 +1,22 @@
 import React from 'react';
 import Rating from 'react-rating';
 import {ImStarEmpty, ImStarFull} from 'react-icons/im';
-import './ReviewsDetailss.css'
+import './ReviewsDetailsStyle.css'
 
-const ReviewsDetailss = ({review}) => {
+const ReviewsDetails = ({review}) => {
     const {name, image, rate, message} = review;
     return (
         <div className='review-details-container'>
-            <div>
+            <div className=''>
                 <img src={image} alt="" />
             </div>
             <div className='review-details'>
                 <p>
-                    <strong style={{fontSize: '1.1rem'}}><u>User</u>: {name}</strong>
+                    <strong className='' style={{}}><u className='font-sans font-bold no-underline text-teal-600'>Customer:</u> <span className=' font-thin'>{name}</span></strong>
                 </p>
-                <p><strong><u>Review</u>: </strong><span className='message'>{message}</span></p>
+                <p className='py-2'><strong className='my-3'><u className='font-sans font-bold no-underline text-teal-600'>Review:</u> </strong><span className='font-thin'>{message}</span></p>
                 <p>
-                    <strong><u>Rating</u>: {rate} </strong>
+                    <strong className=''><u className='font-sans font-bold no-underline text-teal-600'>Rating:</u> <span className='font-thin'>{rate}</span> </strong>
                     <Rating style={{fontSize: '1rem', marginLeft: '5px'}} initialRating={rate} emptySymbol={<ImStarEmpty style={{ color: '#fdde6c' }} />} 
                     fullSymbol={<ImStarFull style={{ color: '#fdde6c' }} />} readonly>
                     </Rating>
@@ -26,4 +26,4 @@ const ReviewsDetailss = ({review}) => {
     );
 };
 
-export default ReviewsDetailss;
+export default ReviewsDetails;

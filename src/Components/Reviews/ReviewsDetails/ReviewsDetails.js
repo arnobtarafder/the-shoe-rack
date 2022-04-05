@@ -6,10 +6,10 @@ import './ReviewDetails.css';
 import { Avatar } from '@material-ui/core';
 // import useReviews from '../../Hooks/useReviews';
 import { ArrowBackIos, ArrowForwardIos } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 
 
 const PreviousBtn = (props) => {
-    console.log(props);
     const { className, onClick } = props;
     return (
       <div className={className} onClick={onClick}>
@@ -90,6 +90,9 @@ const ReviewsCard = ({img, reviews, name, description, designation}) => {
         <p style={{ fontStyle: "italic", marginTop: 25 }}>
           <span style={{ fontWeight: 500, color: "green" }}>{name}</span>, {designation}
         </p>
+
+
+        <Link to='/reviews'><button className='mt-8 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded'>All Reviews</button></Link><br />
       </div>
     )
 }

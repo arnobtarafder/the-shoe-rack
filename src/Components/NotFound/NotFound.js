@@ -18,9 +18,6 @@ const NotFound = () => {
           <Link to='/'><button className='w-full mb-2 py-2 px-3 text-white mt-3 bg-cyan-600 sm:w-auto sm:mb-0'>
             Back to homepage
           </button></Link>
-          <Link to='/contact'><button className='w-full mb-2 py-2 px-3 text-white mt-3 mx-2 bg-cyan-600 sm:w-auto sm:mb-0'>
-            Contact us
-          </button></Link>
         </div>
         <div>
           <div className='w-full h-full bg-gray-200 rounded-lg'>

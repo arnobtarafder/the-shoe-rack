@@ -5,7 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import NotFound from './Components/NotFound/NotFound';
-import Reviewss from './Components/Reviews/Reviewss';
+import Reviews from './Components/Reviews/MainReviews/Reviews';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
-        <Route path='/reviews' element={<Reviewss />}></Route>
+        <Route path='/reviews' element={<Reviews />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
 
