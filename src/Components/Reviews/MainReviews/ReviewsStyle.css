@@ -5,7 +5,7 @@
 
 .reviews{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 2rem;
 }
 
@@ -26,7 +26,7 @@
 @media screen and (min-width: 992px){
     .reviews{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin-bottom: 2rem;
     }    
 }
