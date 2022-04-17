@@ -16,6 +16,7 @@
 * react JS v18
 * react-bootstrap 
 * react-router-dom v6
+* react-rating
 * react-icons
 * react-slick
 * swiper js
