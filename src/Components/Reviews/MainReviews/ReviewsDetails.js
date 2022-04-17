@@ -1,7 +1,7 @@
 import React from 'react';
 import Rating from 'react-rating';
 import {ImStarEmpty, ImStarFull} from 'react-icons/im';
-import './ReviewsDetailsStyle.css'
+import './ReviewsDetails.css'
 
 const ReviewsDetails = ({review}) => {
     const {name, image, rate, message} = review;
